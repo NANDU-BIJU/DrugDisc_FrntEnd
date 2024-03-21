@@ -1,6 +1,8 @@
 .landing__pg_main{
+    background-image:url("C:\Project\DrugDisc_FrntEnd\src\assets\dreamstime_xxl_29271976.jpg") ;
+    background-size: cover;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     width: 100%;
 }
 .drugs__cards__display{
@@ -10,7 +12,7 @@
     align-items: center;
 }
 .drugs__cards__display>form{
-    border: 2px solid  #6bbcf1;
+    border: 5px solid  #000203;
     border-radius: 20px;
     width: 15rem;
     height: 15rem;
@@ -19,11 +21,13 @@
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    color: black;
 
 }
 .drugs__cards__display>form>input{
-    border: 1px solid #6bbcf1;
+    border: 1px solid #000000;
     border-radius: 10px;
     height: 20px;
     width: 70%;
+    color: black;
 }
